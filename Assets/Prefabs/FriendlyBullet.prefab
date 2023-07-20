@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2446424716464014431}
   - component: {fileID: 9167901406633353431}
   - component: {fileID: 2304219621279413308}
+  - component: {fileID: 5473419629238050116}
   m_Layer: 0
   m_Name: FriendlyBullet
-  m_TagString: Untagged
+  m_TagString: FriendlyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +99,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.031834573, y: -0.0004939735}
+  m_Offset: {x: 0.0007710159, y: -0.0004939735}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -109,7 +110,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.059811532, y: 0.37254}
+  m_Size: {x: 0.05670625, y: 0.37254}
   m_EdgeRadius: 0
 --- !u!114 &9167901406633353431
 MonoBehaviour:
@@ -135,4 +136,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1fc5f71877655142a0e6cf3891adf9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 2
+  bulletDeactivePos: 10
+--- !u!50 &5473419629238050116
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2446424716464014426}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

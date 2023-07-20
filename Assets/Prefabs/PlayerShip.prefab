@@ -98,18 +98,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.033159837, y: -0.06457448}
+  m_Offset: {x: 0.006387651, y: -0.097646}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    border: {x: 0, y: 0, z: 0, w: 0.0625}
+    pivot: {x: 0.49841818, y: 0.53907114}
+    oldSize: {x: 0.5625, y: 0.9375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18559426, y: 0.630425}
+  m_Size: {x: 0.19504327, y: 0.56428194}
   m_EdgeRadius: 0
 --- !u!61 &2482036170116835795
 BoxCollider2D:
@@ -124,18 +124,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.033216693, y: -0.18822813}
+  m_Offset: {x: 0.0017199516, y: -0.25594598}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    border: {x: 0, y: 0, z: 0, w: 0.0625}
+    pivot: {x: 0.49841818, y: 0.53907114}
+    oldSize: {x: 0.5625, y: 0.9375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5602737, y: 0.25025082}
+  m_Size: {x: 0.56027365, y: 0.24710095}
   m_EdgeRadius: 0
 --- !u!114 &455524303431838361
 MonoBehaviour:
@@ -151,4 +151,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 2446424716464014426, guid: f9107ecbbae75ba4bb78e46c0c445859, type: 3}
   width: 0
-  speed: 3
+  objectPool: {fileID: 0}

@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6741866085826203672}
   - component: {fileID: 6741866085826203679}
   - component: {fileID: 6741866085826203674}
+  - component: {fileID: 3355333800267359242}
   m_Layer: 0
   m_Name: Alien_04_00
-  m_TagString: Untagged
+  m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7727678308096188875, guid: bc6b00ff065c33042909f158a70087fe, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.80001295, g: 0.8962264, b: 0.29085082, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -131,3 +132,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5000162, y: 0.5072623}
   m_EdgeRadius: 0
+--- !u!114 &3355333800267359242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6741866085826203678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 356dcfec871af6e4194469177189243d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 210
+  explosion: {fileID: 1285774664561963879, guid: 2253fd5a465c0ab45ad7237affeb6496, type: 3}

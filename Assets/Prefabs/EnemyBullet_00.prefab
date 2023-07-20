@@ -12,9 +12,12 @@ GameObject:
   - component: {fileID: 223314044653087496}
   - component: {fileID: 223314044653087497}
   - component: {fileID: 223314044653087498}
+  - component: {fileID: -8993730050023206164}
+  - component: {fileID: 4845458219340170818}
+  - component: {fileID: 1504330434146909571}
   m_Layer: 0
   m_Name: EnemyBullet_00
-  m_TagString: Untagged
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,3 +134,49 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.18136376, y: 0.4542426}
   m_EdgeRadius: 0
+--- !u!114 &-8993730050023206164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223314044653087502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cf4757b61d728142b3dff6b44f6c693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4845458219340170818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223314044653087502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1fc5f71877655142a0e6cf3891adf9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletDeactivePos: 10
+--- !u!50 &1504330434146909571
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223314044653087502}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
