@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2482036170116835758
+--- !u!1 &660692392147285647
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2482036170116835792}
-  - component: {fileID: 2482036170116835793}
-  - component: {fileID: 2482036170116835794}
-  - component: {fileID: 2482036170116835795}
-  - component: {fileID: 455524303431838361}
+  - component: {fileID: 660692392147285641}
+  - component: {fileID: 660692392147285642}
+  - component: {fileID: 660692392147285643}
+  - component: {fileID: 660692392147285644}
+  - component: {fileID: 660692392147285645}
+  - component: {fileID: 660692392147285646}
   m_Layer: 0
   m_Name: PlayerShip
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2482036170116835792
+--- !u!4 &660692392147285641
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2482036170116835758}
+  m_GameObject: {fileID: 660692392147285647}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.031, y: -1.444, z: 0}
+  m_LocalPosition: {x: 0.004, y: -6.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2482036170116835793
+--- !u!212 &660692392147285642
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2482036170116835758}
+  m_GameObject: {fileID: 660692392147285647}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -85,20 +86,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2482036170116835794
+--- !u!61 &660692392147285643
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2482036170116835758}
+  m_GameObject: {fileID: 660692392147285647}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.006387651, y: -0.097646}
+  m_Offset: {x: 0.0010331869, y: -0.13272208}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0.0625}
     pivot: {x: 0.49841818, y: 0.53907114}
@@ -109,22 +110,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19504327, y: 0.56428194}
+  m_Size: {x: 0.18754125, y: 0.6226367}
   m_EdgeRadius: 0
---- !u!61 &2482036170116835795
+--- !u!61 &660692392147285644
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2482036170116835758}
+  m_GameObject: {fileID: 660692392147285647}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0017199516, y: -0.25594598}
+  m_Offset: {x: 0.003037095, y: -0.2534551}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0.0625}
     pivot: {x: 0.49841818, y: 0.53907114}
@@ -135,15 +136,15 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.56027365, y: 0.24710095}
+  m_Size: {x: 0.5583265, y: 0.2560922}
   m_EdgeRadius: 0
---- !u!114 &455524303431838361
+--- !u!114 &660692392147285645
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2482036170116835758}
+  m_GameObject: {fileID: 660692392147285647}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 68cad776fee67d14db47b6bf949d42be, type: 3}
@@ -151,4 +152,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 2446424716464014426, guid: f9107ecbbae75ba4bb78e46c0c445859, type: 3}
   width: 0
-  objectPool: {fileID: 0}
+  objectPool: {fileID: 660692392147285646}
+  shipStats:
+    maxHealth: 5
+    currentHealth: 0
+    maxLifes: 3
+    currentLifes: 3
+    shipSpeed: 3
+    fireRate: 0.5
+--- !u!114 &660692392147285646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660692392147285647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb6c70bfc9cbd94d836e654693154a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefab: {fileID: 2446424716464014426, guid: f9107ecbbae75ba4bb78e46c0c445859, type: 3}
+  poolSize: 5
